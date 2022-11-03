@@ -1,0 +1,102 @@
+.PaginaCartao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    size: 100vh;
+}
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.frente {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    height: 120px;
+    background-color: orange;
+    border-radius: 4px;
+}
+
+.verso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    height: 120px;
+    background-color: rgb(170, 183, 196);
+    border-radius: 4px;
+
+}
+
+table {
+    background: black;
+    padding: 20px;
+    width: 240px;
+    margin: 0px;
+    height: 15px;
+}
+.cvv{
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    width: 90%;
+    color: white;
+    display: flex;
+    justify-content: right;
+}
+
+#iconeCard {
+    width: 50px;
+}
+
+.card-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: ghostwhite;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.info2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+main.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #confirm {
+    background: linear-gradient(45deg, #023047, #219ebc);
+    color: white;
+  }
